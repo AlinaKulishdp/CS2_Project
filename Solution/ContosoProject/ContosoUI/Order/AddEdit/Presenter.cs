@@ -34,7 +34,7 @@ namespace ContosoUI.Order.AddEdit
         {
             get
             {
-                return order.GoodsList;
+                return order.GoodsList.ToList();
             }
 
             set { }
@@ -46,7 +46,7 @@ namespace ContosoUI.Order.AddEdit
                 return order.TotalCost;
             }
 
-            set { order.TotalCost = value; }
+            set {  }
         }
 
         public OrderStatus Status
@@ -62,7 +62,7 @@ namespace ContosoUI.Order.AddEdit
         {
             get
             {
-                return order.Comments;
+                return order.Comments.ToList();
             }
 
             set { }

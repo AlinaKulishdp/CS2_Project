@@ -31,9 +31,9 @@ namespace Data.EFData
         }
 
         public ProjectContext()
-            : base("name=ContosoContext")
+            : base("name=ContosoCEContext")
         {
-            AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Directory.GetCurrentDirectory());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ProjectContext, Data.Migrations.Configuration>("ContosoCEContext"));
         }
     }
 }

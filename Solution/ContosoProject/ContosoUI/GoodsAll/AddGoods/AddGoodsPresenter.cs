@@ -17,7 +17,7 @@ namespace ContosoUI.GoodsAll.AddGoods
         IProductCategoryRepository modelCategory = new Data.EFData.ProductCategoryDao();
         Goods thisGoods;
         public List<string> productCategoryList = new List<string>();
-        public List<Comment> Comments { get { return thisGoods.Coments; } set { } }
+        public List<Comment> Comments { get { return thisGoods.Coments.ToList(); } set { } }
 
         public AddGoodsPresenter(AddGoods view, int id)
         {
