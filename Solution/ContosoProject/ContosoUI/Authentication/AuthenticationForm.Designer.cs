@@ -62,9 +62,9 @@
             this.OkButton.AutoWidthInLayoutControl = true;
             this.OkButton.Image = ((System.Drawing.Image)(resources.GetObject("OkButton.Image")));
             this.OkButton.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.OkButton.Location = new System.Drawing.Point(458, 305);
+            this.OkButton.Location = new System.Drawing.Point(588, 505);
             this.OkButton.Name = "OkButton";
-            this.OkButton.Size = new System.Drawing.Size(64, 44);
+            this.OkButton.Size = new System.Drawing.Size(84, 44);
             this.OkButton.StyleController = this.layoutControl1;
             this.OkButton.TabIndex = 4;
             this.OkButton.Click += new System.EventHandler(this.OkButton_Click);
@@ -80,7 +80,7 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(733, 33, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(534, 361);
+            this.layoutControl1.Size = new System.Drawing.Size(684, 561);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -89,7 +89,7 @@
             this.LoginPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LoginPictureBox.Image")));
             this.LoginPictureBox.Location = new System.Drawing.Point(12, 12);
             this.LoginPictureBox.Name = "LoginPictureBox";
-            this.LoginPictureBox.Size = new System.Drawing.Size(510, 289);
+            this.LoginPictureBox.Size = new System.Drawing.Size(660, 489);
             this.LoginPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.LoginPictureBox.TabIndex = 8;
             this.LoginPictureBox.TabStop = false;
@@ -97,9 +97,9 @@
             // LoginTextEdit
             // 
             this.LoginTextEdit.EditValue = "";
-            this.LoginTextEdit.Location = new System.Drawing.Point(56, 305);
+            this.LoginTextEdit.Location = new System.Drawing.Point(56, 505);
             this.LoginTextEdit.Name = "LoginTextEdit";
-            this.LoginTextEdit.Size = new System.Drawing.Size(398, 20);
+            this.LoginTextEdit.Size = new System.Drawing.Size(528, 20);
             this.LoginTextEdit.StyleController = this.layoutControl1;
             this.LoginTextEdit.TabIndex = 4;
             this.LoginTextEdit.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginTextEdit_KeyDown);
@@ -107,12 +107,12 @@
             // PasswordEdit
             // 
             this.PasswordEdit.EditValue = "";
-            this.PasswordEdit.Location = new System.Drawing.Point(56, 329);
+            this.PasswordEdit.Location = new System.Drawing.Point(56, 529);
             this.PasswordEdit.Name = "PasswordEdit";
             this.PasswordEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8F);
             this.PasswordEdit.Properties.Appearance.Options.UseFont = true;
             this.PasswordEdit.Properties.UseSystemPasswordChar = true;
-            this.PasswordEdit.Size = new System.Drawing.Size(398, 20);
+            this.PasswordEdit.Size = new System.Drawing.Size(528, 20);
             this.PasswordEdit.StyleController = this.layoutControl1;
             this.PasswordEdit.TabIndex = 6;
             this.PasswordEdit.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PasswordEdit_KeyDown);
@@ -127,7 +127,7 @@
             this.layoutControlGroup4});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(534, 361);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(684, 561);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
@@ -137,7 +137,7 @@
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.MinSize = new System.Drawing.Size(104, 24);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(514, 293);
+            this.layoutControlItem1.Size = new System.Drawing.Size(664, 493);
             this.layoutControlItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
@@ -149,9 +149,9 @@
             this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.LoginLayoutControlItem,
             this.PasswordLayoutControlItem});
-            this.layoutControlGroup3.Location = new System.Drawing.Point(0, 293);
+            this.layoutControlGroup3.Location = new System.Drawing.Point(0, 493);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
-            this.layoutControlGroup3.Size = new System.Drawing.Size(446, 48);
+            this.layoutControlGroup3.Size = new System.Drawing.Size(576, 48);
             this.layoutControlGroup3.Text = "layoutControlGroup2";
             // 
             // LoginLayoutControlItem
@@ -161,7 +161,7 @@
             this.LoginLayoutControlItem.MaxSize = new System.Drawing.Size(0, 24);
             this.LoginLayoutControlItem.MinSize = new System.Drawing.Size(98, 24);
             this.LoginLayoutControlItem.Name = "LoginLayoutControlItem";
-            this.LoginLayoutControlItem.Size = new System.Drawing.Size(446, 24);
+            this.LoginLayoutControlItem.Size = new System.Drawing.Size(576, 24);
             this.LoginLayoutControlItem.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.LoginLayoutControlItem.Text = "Логин:";
             this.LoginLayoutControlItem.TextLocation = DevExpress.Utils.Locations.Left;
@@ -172,7 +172,7 @@
             this.PasswordLayoutControlItem.Control = this.PasswordEdit;
             this.PasswordLayoutControlItem.Location = new System.Drawing.Point(0, 24);
             this.PasswordLayoutControlItem.Name = "layoutControlItem3";
-            this.PasswordLayoutControlItem.Size = new System.Drawing.Size(446, 24);
+            this.PasswordLayoutControlItem.Size = new System.Drawing.Size(576, 24);
             this.PasswordLayoutControlItem.Text = "Пароль:";
             this.PasswordLayoutControlItem.TextLocation = DevExpress.Utils.Locations.Left;
             this.PasswordLayoutControlItem.TextSize = new System.Drawing.Size(41, 13);
@@ -183,9 +183,9 @@
             this.layoutControlGroup4.GroupBordersVisible = false;
             this.layoutControlGroup4.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.simpleButtonLCI});
-            this.layoutControlGroup4.Location = new System.Drawing.Point(446, 293);
+            this.layoutControlGroup4.Location = new System.Drawing.Point(576, 493);
             this.layoutControlGroup4.Name = "layoutControlGroup4";
-            this.layoutControlGroup4.Size = new System.Drawing.Size(68, 48);
+            this.layoutControlGroup4.Size = new System.Drawing.Size(88, 48);
             this.layoutControlGroup4.Text = "layoutControlGroup3";
             // 
             // simpleButtonLCI
@@ -196,7 +196,7 @@
             this.simpleButtonLCI.Location = new System.Drawing.Point(0, 0);
             this.simpleButtonLCI.MinSize = new System.Drawing.Size(46, 42);
             this.simpleButtonLCI.Name = "simpleButtonLCI";
-            this.simpleButtonLCI.Size = new System.Drawing.Size(68, 48);
+            this.simpleButtonLCI.Size = new System.Drawing.Size(88, 48);
             this.simpleButtonLCI.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.simpleButtonLCI.TextLocation = DevExpress.Utils.Locations.Left;
             this.simpleButtonLCI.TextSize = new System.Drawing.Size(0, 0);
@@ -219,7 +219,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 361);
+            this.ClientSize = new System.Drawing.Size(684, 561);
             this.Controls.Add(this.layoutControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
